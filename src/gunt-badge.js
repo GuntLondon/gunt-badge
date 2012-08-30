@@ -47,8 +47,11 @@
     addCss();
 
     // set up the onclick event to open new window
-    addEvent(a, 'click', function() {
+    addEvent(a, 'click', function(e) {
       window.open(linkHref);
+      if (e) {
+        e.preventDefault();
+      }
       return false;
     });
   }
