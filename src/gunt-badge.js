@@ -3,14 +3,15 @@
  */
 (function(){
 
-  var linkText = "A Gunt<br/>Production";
-  var linkHref = "http://guntlondon.com";
-  var paraId = "gunt-badge";
-  var imgUrl = "http://guntlondon.com/includes/img/gunt-badge.png";
+  var
+  linkText = "A Gunt<br/>Production",
+  linkHref = "http://guntlondon.com",
+  paraId = "gunt-badge",
+  imgUrl = "http://guntlondon.com/includes/img/gunt-badge.png",
 
-  var css = "#gunt-badge { position:fixed; right:0; bottom:100px; }" +
-    "#gunt-badge a { display:block; position:relative; right:-58px; top:0; border:3px solid #666; border-top-left-radius:30px; border-bottom-left-radius:30px; border-right:none; background:url('"+imgUrl+"') rgba(0,0,0,0.75) no-repeat 12px 50%; padding:8px 8px 8px 40px; color:#ccc; font-family:Georgia, sans-serif; font-size:10px; font-style:italic; font-weight:normal; text-decoration:none; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; -ms-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out; transition:all 0.5s ease-in-out; }" +
-    "#gunt-badge a:hover { right:0; color:#fff; border-color:#ea7277; }";
+  css = "#gunt-badge { position:fixed; right:0; bottom:100px; }" +
+    "#gunt-badge a { display:block; position:relative; right:-58px; top:0; border:3px solid #666; border-top-left-radius:30px; border-bottom-left-radius:30px; border-right:none; background:url('"+imgUrl+"') rgba(0,0,0,0.75) no-repeat 12px 50%; padding:8px 8px 8px 40px; color:#ccc; font-family:Georgia, sans-serif !important; font-size:10px !important; line-height:1.5 !important; font-style:italic !important; font-weight:normal !important; text-decoration:none !important; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; -ms-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out; transition:all 0.5s ease-in-out; }" +
+    "#gunt-badge a:hover { right:0; color:#fff !important; border-color:#ea7277; }";
 
   // add CSS
   function addCss() {
