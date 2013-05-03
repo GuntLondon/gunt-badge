@@ -9,9 +9,9 @@
   paraId = "gunt-badge",
   imgUrl = "http://guntlondon.com/includes/img/gunt-badge.png",
 
-  css = "#gunt-badge { position:fixed; right:0; bottom:100px; }" +
-    "#gunt-badge a { display:block; position:relative; right:-58px; top:0; border:3px solid #666; border-top-left-radius:30px; border-bottom-left-radius:30px; border-right:none; background:url('"+imgUrl+"') rgba(0,0,0,0.75) no-repeat 12px 50%; padding:8px 8px 8px 40px; color:#ccc; font-family:Georgia, sans-serif !important; font-size:10px !important; line-height:1.5 !important; font-style:italic !important; font-weight:normal !important; text-decoration:none !important; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; -ms-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out; transition:all 0.5s ease-in-out; }" +
-    "#gunt-badge a:hover { right:0; color:#fff !important; border-color:#ea7277; }";
+  css = "#gunt-badge { position:fixed !important; right:0 !important; bottom:100px !important; }" +
+    "#gunt-badge a { display:block !important; position:relative !important; right:-58px !important; top:0 !important; border:3px solid #666 !important; border-top-left-radius:30px !important; border-bottom-left-radius:30px !important; border-right:none !important; background:url('"+imgUrl+"') rgba(0,0,0,0.75) no-repeat 12px 50% !important; padding:8px 8px 8px 40px !important; color:#ccc !important; font-family:Georgia, sans-serif !important; font-size:10px !important; line-height:1.5 !important; font-style:italic !important; font-weight:normal !important; text-decoration:none !important; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; -ms-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out; transition:all 0.5s ease-in-out; }" +
+    "#gunt-badge a:hover { right:0 !important; color:#fff !important; border-color:#ea7277 !important; }";
 
   // add CSS
   function addCss() {
