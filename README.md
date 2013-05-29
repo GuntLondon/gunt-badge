@@ -23,3 +23,8 @@ This repo contains an example HTML page that shows how to use the script.
 Source
 ------
 This repo also contains the source code. If you make a change, the minified file needs to be manually recompiled. You can use an [online compressor](http://refresh-sf.com/yui/)
+
+
+Deploy
+------
+To publish `gunt-badge.min.js` to `http://guntlondon.github.io/gunt-badge/gunt-badge.min.js`, the file `gunt-badge.min.js` should be copied to the root of the `gh-pages` branch.  
